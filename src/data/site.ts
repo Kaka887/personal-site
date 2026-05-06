@@ -22,11 +22,26 @@ export type ProjectItemData = {
   summary: string
 }
 
-export type WorkItem = {
-  type: string
+export type WorkPhotoItem = {
   title: string
-  summary: string
-  href: string
+  description: string
+  image: string
+  alt: string
+}
+
+export type WorkDocumentItem = {
+  title: string
+  year: string
+  description: string
+  image: string
+  alt: string
+  link: string
+}
+
+export type WorksData = {
+  gallery: WorkPhotoItem[]
+  reports: WorkDocumentItem[]
+  presentations: WorkDocumentItem[]
 }
 
 export type WritingItem = {
@@ -142,29 +157,68 @@ export const siteData = {
         '体验感还不错的实习，同事们都很年轻很好说话（除了我那诡异的leader），几乎每天都有奶茶，系统把握了电商运营的套路。',
     },
   ] as ProjectItemData[],
-  works: [
-    {
-      type: 'Photography Series',
-      title: 'Libraries, Light, and Public Space',
-      summary:
-        'A visual essay on civic interiors and the spatial language of concentration, access, and memory.',
-      href: '#',
-    },
-    {
-      type: 'Research Report',
-      title: 'Stewardship in Transitional Markets',
-      summary:
-        'An editorial report distilling evidence on board stewardship in fast-changing policy and investment environments.',
-      href: '#',
-    },
-    {
-      type: 'Policy Brief',
-      title: 'Capital Allocation and Institutional Trust',
-      summary:
-        'A concise brief proposing practical metrics for evaluating strategic credibility in long-cycle industries.',
-      href: '#',
-    },
-  ] as WorkItem[],
+  works: {
+    gallery: [
+      {
+        title: 'Field Research Moment',
+        description: 'A quiet visual note from an academic journey and long-form field observation.',
+        image: 'works/photos/photo-1.svg',
+        alt: 'A placeholder frame representing a field research photograph.',
+      },
+      {
+        title: 'Conference Scene',
+        description: 'A captured moment from presentation exchange, discussion, and collaborative critique.',
+        image: 'works/photos/photo-2.svg',
+        alt: 'A placeholder frame representing a conference scene photograph.',
+      },
+      {
+        title: 'Library Window Study',
+        description: 'An editorial still focused on light, concentration, and scholarly atmosphere.',
+        image: 'works/photos/photo-3.svg',
+        alt: 'A placeholder frame representing a library interior photograph.',
+      },
+    ] as WorkPhotoItem[],
+    reports: [
+      {
+        title: 'Corporate Governance Research Report',
+        year: '2025',
+        description:
+          'A concise research report exploring governance mechanisms, incentives, and long-term corporate value.',
+        image: 'works/reports/report-1.svg',
+        alt: 'A placeholder cover for a corporate governance report.',
+        link: '#',
+      },
+      {
+        title: 'Institutional Capital and Strategic Patience',
+        year: '2024',
+        description:
+          'An evidence-led report on capital allocation discipline and trust signals across multi-cycle markets.',
+        image: 'works/reports/report-2.svg',
+        alt: 'A placeholder cover for an institutional capital report.',
+        link: '#',
+      },
+    ] as WorkDocumentItem[],
+    presentations: [
+      {
+        title: 'ESG and Corporate Resilience Presentation',
+        year: '2025',
+        description:
+          'A presentation deck on ESG spillover effects, resilience, and sustainable corporate development.',
+        image: 'works/ppt/ppt-1.svg',
+        alt: 'A placeholder cover for an ESG presentation deck.',
+        link: '#',
+      },
+      {
+        title: 'Boardroom Learning Under Uncertainty',
+        year: '2024',
+        description:
+          'A slides-based synthesis on strategic learning loops, dissent integration, and long-horizon governance.',
+        image: 'works/ppt/ppt-2.svg',
+        alt: 'A placeholder cover for a governance presentation deck.',
+        link: '#',
+      },
+    ] as WorkDocumentItem[],
+  } as WorksData,
   writing: [
     {
       date: 'Mar 2026',
@@ -211,4 +265,3 @@ export const siteData = {
     note: 'Built with care in React, TypeScript, and Tailwind CSS.',
   },
 }
-

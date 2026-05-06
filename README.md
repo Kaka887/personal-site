@@ -36,6 +36,14 @@ This file contains:
 - stats
 - contact links and email
 
+Works content is now split into:
+
+- `works.gallery`
+- `works.reports`
+- `works.presentations`
+
+inside `src/data/site.ts`.
+
 ## 4) GitHub Pages setup
 
 1. Push this project to a GitHub repository.
@@ -83,9 +91,11 @@ src/
     Footer.tsx
     Header.tsx
     Hero.tsx
+    PhotoLightbox.tsx
     ProjectItem.tsx
     Reveal.tsx
     SectionLabel.tsx
+    WorkCard.tsx
   data/
     site.ts
   sections/
@@ -99,6 +109,8 @@ src/
     Writing.tsx
   styles/
     globals.css
+  utils/
+    assetPath.ts
   App.tsx
   main.tsx
 ```
@@ -107,4 +119,7 @@ src/
 
 - Replace the placeholder CV at `public/cv.pdf` with your real PDF.
 - Replace placeholder links (`#`) in `src/data/site.ts` with real URLs.
-
+- Put gallery photos in `public/works/photos/`.
+- Put report cover images in `public/works/reports/`.
+- Put presentation cover images in `public/works/ppt/`.
+- Update image path, title, description, and links in `src/data/site.ts`.

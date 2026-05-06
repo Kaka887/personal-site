@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Document placeholder">
+  <rect width="1200" height="900" fill="#FFFFFF" />
+  <rect x="75" y="65" width="1050" height="770" rx="8" fill="#FAFAF8" stroke="#E8E4DF" stroke-width="2" />
+  <rect x="75" y="65" width="1050" height="8" fill="#B8860B" />
+  <text x="600" y="410" text-anchor="middle" fill="#1A1A1A" font-size="56" font-family="Playfair Display, Georgia, serif">Cover Placeholder</text>
+  <text x="600" y="485" text-anchor="middle" fill="#6B6B6B" font-size="24" font-family="IBM Plex Mono, monospace" letter-spacing="2">REPLACE WITH REAL IMAGE</text>
+</svg>
