@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #fafaf8;
+  --color-foreground: #1a1a1a;
+  --color-muted: #f5f3f0;
+  --color-muted-foreground: #6b6b6b;
+  --color-accent: #b8860b;
+  --color-accent-secondary: #d4a84b;
+  --color-border: #e8e4df;
+  --color-card: #ffffff;
+  --color-ring: #b8860b;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply overflow-x-hidden bg-background font-sans text-foreground antialiased;
+    line-height: 1.75;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-accent) 20%, white);
+    color: var(--color-foreground);
+  }
+}
+
+.paper-noise {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.2;
+  background-image:
+    radial-gradient(circle at 18% 25%, rgba(184, 134, 11, 0.08), transparent 30%),
+    radial-gradient(circle at 82% 80%, rgba(212, 168, 75, 0.08), transparent 34%),
+    radial-gradient(rgba(26, 26, 26, 0.03) 0.6px, transparent 0.6px);
+  background-size: auto, auto, 3px 3px;
+}
+
