@@ -49,9 +49,9 @@ export type ContactLink = {
 
 export const siteData = {
   personal: {
-    name: 'Your Name',
-    initials: 'YN',
-    title: 'Researcher · Writer · Builder',
+    name: '赵琪',
+    initials: 'ZQ',
+    title: 'Student ·  Builder',
   },
   navigation: [
     { label: 'About', href: '#about' },
@@ -62,34 +62,34 @@ export const siteData = {
   ] as NavItem[],
   hero: {
     eyebrow: 'Editorial Portfolio',
-    title: 'Research, writing, and ideas at the intersection of business, governance, and innovation.',
+    title: '一个相当简单的我',
     subtitle:
-      'I study how institutions, incentives, and corporate decisions shape long-term value creation.',
+      '保持热爱，充盈生活',
     primaryCta: { label: 'View Work', href: '#works' },
     secondaryCta: { label: 'Download CV', href: '/cv.pdf' },
   },
   about: {
-    heading: 'A long view on institutions, strategy, and stewardship.',
+    heading: '正在读研究生的我',
     paragraphs: [
-      'My work focuses on how organizations make consequential decisions under uncertainty, especially when incentives, governance, and public expectations are misaligned. I am interested in the architecture of durable institutions and the craft of strategic judgment.',
-      'Across research and applied projects, I aim to connect rigorous analysis with practical clarity. Outside formal work, I keep field notes through photography, reading, and slow urban walks that sharpen observation and broaden perspective.',
+      '此人正在南开大学读研，同时在一家咨询公司线上实习，正在疯狂思考未来的生活方式和成长目标。',
+      '希望能够不断成长，保持好奇心，拥有生活，实现成就。',
     ],
   },
   interests: [
     {
-      title: 'Photography',
+      title: '拍照',
       description:
-        'Documentary-style images of architecture, streetscapes, and quiet details that often escape first glance.',
+        '拍自己，拍别人，拍动物，拍风景。',
     },
     {
-      title: 'Reading',
+      title: '读书',
       description:
-        'Essays, institutional history, and political economy literature that informs both methods and imagination.',
+        '杂七杂八什么都读，社会学、心理学、经济学、小说、历史、哲学、网络小说……',
     },
     {
-      title: 'Walking',
+      title: '散步',
       description:
-        'Long walks as a deliberate thinking practice for testing arguments, structure, and narrative pacing.',
+        '喜欢到处走走逛逛，呼吸新鲜空气。',
     },
     {
       title: 'Archival Notes',
@@ -98,48 +98,48 @@ export const siteData = {
   ] as InterestItem[],
   experience: [
     {
-      period: '2024 - Present',
-      role: 'Independent Research Fellow',
-      organization: 'Policy & Corporate Governance Initiative',
+      period: '2025.9 - Present',
+      role: '南开大学',
+      organization: '读研了',
       summary:
-        'Leading comparative research on institutional incentives and board-level decision quality in high-volatility sectors.',
+        '新角色开始，感觉读研堪比上班，需要有超好的心态面对鸡飞狗跳的研究生生活。',
     },
     {
-      period: '2021 - 2024',
-      role: 'Strategy Analyst',
-      organization: 'Public Interest Capital Lab',
+      period: '2024.1 - 2025.7',
+      role: '最焦虑和迷茫的时候',
+      organization: '保研&开始实习',
       summary:
-        'Designed evidence frameworks linking corporate strategy choices to long-term social and financial outcomes.',
+        '大三下学期开始，压力非常大，每天都睡不好，期间经历期末考试、参加了三个夏令营。上岸后开始实习，在霸王茶姬做过运营，在小米做过风控合规。',
     },
     {
-      period: '2018 - 2021',
-      role: 'Research Associate',
-      organization: 'Center for Institutional Design',
+      period: '2021.9 - 2025.7',
+      role: '天津大学',
+      organization: '本科生',
       summary:
-        'Contributed to mixed-method studies on regulatory architecture, market behavior, and organizational adaptation.',
+        '大一读的是智能制造与建造专业，不喜欢学物理，转专业去了财务管理，一个不太明智且草率的决定。',
     },
   ] as ExperienceItem[],
   projects: [
     {
-      year: '2026',
-      category: 'Governance',
-      title: 'Institutional Incentives and Strategic Time Horizons',
+      year: '2026.3-',
+      category: '和君咨询',
+      title: '咨询实习',
       summary:
-        'A working paper examining how governance structures influence long-term investment discipline during policy volatility.',
+        '正在体验，mentor很好很优秀，后面更新。',
     },
     {
-      year: '2025',
-      category: 'Corporate Strategy',
-      title: 'Decision Quality Under Regulatory Uncertainty',
+      year: '2025.2-2025.7',
+      category: '小米',
+      title: '金融风险管理实习',
       summary:
-        'Field interviews and document analysis on how executive teams recalibrate strategy when regulatory narratives shift.',
+        '小米的工作氛围和风评一样，但是这段实习确实让我学到很多，风控很有意思，合规有点无聊。',
     },
     {
-      year: '2024',
-      category: 'Innovation Policy',
-      title: 'Innovation Systems and Coordination Failures',
+      year: '2024.11-2025.2',
+      category: '霸王茶姬',
+      title: 'O2O&DTC运营实习生',
       summary:
-        'A cross-sector study mapping where institutional frictions delay promising innovation pathways.',
+        '体验感还不错的实习，同事们都很年轻很好说话（除了我那诡异的leader），几乎每天都有奶茶，系统把握了电商运营的套路。',
     },
   ] as ProjectItemData[],
   works: [
