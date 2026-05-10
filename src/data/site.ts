@@ -160,59 +160,59 @@ export const siteData = {
   works: {
     gallery: [
       {
-        title: 'Field Research Moment',
-        description: 'A quiet visual note from an academic journey and long-form field observation.',
+        title: '也曾经路过',
+        description: '喜欢一切自然的颜色😍',
         image: 'works/photos/photo-1.svg',
         alt: 'A placeholder frame representing a field research photograph.',
       },
       {
-        title: 'Conference Scene',
-        description: 'A captured moment from presentation exchange, discussion, and collaborative critique.',
+        title: '记录自己',
+        description: '留着点回忆给N年后的自己🤔',
         image: 'works/photos/photo-2.svg',
         alt: 'A placeholder frame representing a conference scene photograph.',
       },
       {
-        title: 'Library Window Study',
-        description: 'An editorial still focused on light, concentration, and scholarly atmosphere.',
+        title: '猫猫和狗狗',
+        description: '世界上最伟大的发明🐱🐶',
         image: 'works/photos/photo-3.svg',
         alt: 'A placeholder frame representing a library interior photograph.',
       },
     ] as WorkPhotoItem[],
     reports: [
       {
-        title: 'Corporate Governance Research Report',
-        year: '2025',
+        title: '中国财险行业风险分析报告',
+        year: '2025-2026',
         description:
-          'A concise research report exploring governance mechanisms, incentives, and long-term corporate value.',
+          '报告主理人，系统分析中国财险行业的六大风险，深挖了车险的特异性风险',
         image: 'works/reports/report-1.svg',
         alt: 'A placeholder cover for a corporate governance report.',
         link: '#',
       },
       {
-        title: 'Institutional Capital and Strategic Patience',
-        year: '2024',
+        title: '天津市养老金融白皮书（2026）',
+        year: '2025',
         description:
-          'An evidence-led report on capital allocation discipline and trust signals across multi-cycle markets.',
+          '负责天津市各金融机构养老金融产品资料搜集、报告撰写；参与养老机构实地调研。',
         image: 'works/reports/report-2.svg',
         alt: 'A placeholder cover for an institutional capital report.',
         link: '#',
       },
     ] as WorkDocumentItem[],
-    presentations: [
+    PPT: [
       {
-        title: 'ESG and Corporate Resilience Presentation',
-        year: '2025',
+        title: 低空经济行业研究,
+        year: '2026',
         description:
-          'A presentation deck on ESG spillover effects, resilience, and sustainable corporate development.',
+          '低空经济领域投融资趋势研究',
         image: 'works/ppt/ppt-1.svg',
         alt: 'A placeholder cover for an ESG presentation deck.',
         link: '#',
       },
       {
-        title: 'Boardroom Learning Under Uncertainty',
-        year: '2024',
+        title: '商业航天行业研究',
+        year: '2026',
         description:
-          'A slides-based synthesis on strategic learning loops, dissent integration, and long-horizon governance.',
+          '产业链上游（卫星制造）全景研究👽',
         image: 'works/ppt/ppt-2.svg',
         alt: 'A placeholder cover for a governance presentation deck.',
         link: '#',
@@ -252,9 +252,9 @@ export const siteData = {
     { value: '1', label: 'Long-term Academic Vision' },
   ] as StatItem[],
   contact: {
-    heading: 'Let’s start a thoughtful conversation.',
+    heading: '来找我玩😊',
     body: 'I welcome collaborations across research, strategy, and writing. If you are building something rigorous and meaningful, I would be glad to hear from you.',
-    email: 'hello@yourname.com',
+    email: 'qizhao@mail.nankai.edu.cn',
     links: [
       { label: 'GitHub', href: 'https://github.com/yourname' },
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/yourname' },
@@ -262,6 +262,6 @@ export const siteData = {
     ] as ContactLink[],
   },
   footer: {
-    note: 'Built with care in React, TypeScript, and Tailwind CSS.',
+    note: '希望每天都有好运气',
   },
 }
