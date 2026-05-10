@@ -20,9 +20,9 @@ export function Works({ items }: WorksProps) {
           <SectionLabel label="Works" />
 
           <header className="max-w-3xl">
-            <h2 className="font-serif text-4xl leading-tight tracking-[-0.015em] text-foreground md:text-5xl">Selected Works</h2>
+            <h2 className="font-serif text-4xl leading-tight tracking-[-0.015em] text-foreground md:text-5xl">作品分享☺️</h2>
             <p className="mt-5 text-[18px] leading-[1.8] text-muted-foreground">
-              A curated selection of photographs, research reports, and presentation decks documenting how ideas are observed, shaped, and communicated.
+              一些自己在生活、学习和实习过程中做过的东西和产出……
             </p>
           </header>
 
