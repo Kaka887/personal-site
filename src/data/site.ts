@@ -204,7 +204,7 @@ export const siteData = {
         year: '2026',
         description:
           '低空经济领域投融资趋势研究',
-        image: 'works/ppt/ppt1.svg',
+        image: 'works/ppt/ppt1.png',
         alt: 'A placeholder cover for an ESG presentation deck.',
         link: '#',
       },
@@ -213,7 +213,7 @@ export const siteData = {
         year: '2026',
         description:
           '产业链上游（卫星制造）全景研究👽',
-        image: 'works/ppt/ppt2.svg',
+        image: 'works/ppt/ppt2.png',
         alt: 'A placeholder cover for a governance presentation deck.',
         link: '#',
       },
