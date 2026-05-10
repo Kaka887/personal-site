@@ -48,7 +48,7 @@ export function PhotoLightbox({ item, onClose, fallbackImage }: PhotoLightboxPro
         <img
           src={assetPath(item.image)}
           alt={item.alt}
-          className="max-h-[75vh] w-full object-cover"
+          className="h-full w-full object-contain"
           onError={(event) => {
             event.currentTarget.onerror = null
             event.currentTarget.src = assetPath(fallbackImage)
