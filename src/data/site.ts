@@ -198,7 +198,7 @@ export const siteData = {
         link: '#',
       },
     ] as WorkDocumentItem[],
-    PPT: [
+    presentations: [
       {
         title: '低空经济行业研究',
         year: '2026',
