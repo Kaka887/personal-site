@@ -30,7 +30,7 @@ export function WorkCard({
           <img
             src={assetPath(image)}
             alt={alt}
-            className="aspect-[4/3] h-full w-full object-cover"
+            className="aspect-[4/3] h-full w-full object-contain"
             loading="lazy"
             onError={(event) => {
               event.currentTarget.onerror = null
