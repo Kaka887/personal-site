@@ -162,19 +162,19 @@ export const siteData = {
       {
         title: '也曾经路过',
         description: '喜欢一切自然的颜色😍',
-        image: 'works/photos/photo-1.svg',
+        image: 'works/photos/photo1.png',
         alt: 'A placeholder frame representing a field research photograph.',
       },
       {
         title: '记录自己',
         description: '留着点回忆给N年后的自己🤔',
-        image: 'works/photos/photo-2.svg',
+        image: 'works/photos/photo2.png',
         alt: 'A placeholder frame representing a conference scene photograph.',
       },
       {
         title: '猫猫和狗狗',
         description: '世界上最伟大的发明🐱🐶',
-        image: 'works/photos/photo-3.svg',
+        image: 'works/photos/photo3.png',
         alt: 'A placeholder frame representing a library interior photograph.',
       },
     ] as WorkPhotoItem[],
@@ -184,7 +184,7 @@ export const siteData = {
         year: '2025-2026',
         description:
           '报告主理人，系统分析中国财险行业的六大风险，深挖了车险的特异性风险',
-        image: 'works/reports/report-1.svg',
+        image: 'works/reports/report1.png',
         alt: 'A placeholder cover for a corporate governance report.',
         link: '#',
       },
@@ -193,7 +193,7 @@ export const siteData = {
         year: '2025',
         description:
           '负责天津市各金融机构养老金融产品资料搜集、报告撰写；参与养老机构实地调研。',
-        image: 'works/reports/report-2.svg',
+        image: 'works/reports/report2.png',
         alt: 'A placeholder cover for an institutional capital report.',
         link: '#',
       },
@@ -254,7 +254,7 @@ export const siteData = {
   contact: {
     heading: '来找我玩😊',
     body: 'I welcome collaborations across research, strategy, and writing. If you are building something rigorous and meaningful, I would be glad to hear from you.',
-    email: 'qizhao@mail.nankai.edu.cn',
+    email: "qizhao@mail.nankai.edu.cn",
     links: [
       { label: 'GitHub', href: 'https://github.com/yourname' },
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/yourname' },
